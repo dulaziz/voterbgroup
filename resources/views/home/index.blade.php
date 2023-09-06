@@ -39,44 +39,11 @@
                 {{$pol["excerpt"]}}
             </x-slot>
             <x-slot name="button">
-                <a href="/singlePoll/{{$pol["slug"]}}" class="text-white text-md text-center bg-blue-500 px-5 py-2">Ikuti Polling</a>
-                <a href="/singlePoll/{{$pol["slug"]}}" class="text-white text-md text-center bg-slate-800 px-5 py-2">Lihat Polling</a>
+                <a href="/singlePolling/{{$pol["slug"]}}" class="text-white text-md text-center bg-blue-500 px-5 py-2">Ikuti Polling</a>
+                <a href="/singlePolling/{{$pol["slug"]}}" class="text-white text-md text-center bg-slate-800 px-5 py-2">Lihat Polling</a>
             </x-slot>
         </x-card-main>
         @endforeach
-        {{-- <x-card-main>
-            <x-slot name="img">
-                <img src="honest bee.jpg" alt="" class="object-cover">
-            </x-slot>
-            <x-slot name="title">
-                This Vote Title Name 2
-            </x-slot>
-            <x-slot name="excerpt">
-                2 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, consectetur est placeat consequatur vel optio neque deserunt expedita numquam autem quidem eligendi architecto molestias nulla reiciendis. Sint aut adipisci accusamus.
-            </x-slot>
-        </x-card-main>
-        <x-card-main>
-            <x-slot name="img">
-                <img src="smpl.jpg" alt="" class="object-cover">
-            </x-slot>
-            <x-slot name="title">
-                This Vote Title Name 3
-            </x-slot>
-            <x-slot name="excerpt">
-                3 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, consectetur est placeat consequatur vel optio neque deserunt expedita numquam autem quidem eligendi architecto molestias nulla reiciendis. Sint aut adipisci accusamus.
-            </x-slot>
-        </x-card-main>
-        <x-card-main>
-            <x-slot name="img">
-                <img src="honest bee.jpg" alt="" class="object-cover">
-            </x-slot>
-            <x-slot name="title">
-                This Vote Title Name 4
-            </x-slot>
-            <x-slot name="excerpt">
-                4 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, consectetur est placeat consequatur vel optio neque deserunt expedita numquam autem quidem eligendi architecto molestias nulla reiciendis. Sint aut adipisci accusamus.
-            </x-slot>
-        </x-card-main> --}}
     </div>
 
     {{-- Pagination --}}
